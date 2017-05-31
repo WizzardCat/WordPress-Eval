@@ -1,3 +1,6 @@
+<?php defined('ABSPATH') or die('Cheatin\'uh?'); ?>
+
+
 <?php
 get_header();
 the_post();

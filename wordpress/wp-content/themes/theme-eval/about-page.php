@@ -1,7 +1,12 @@
+<?php defined('ABSPATH') or die('Cheatin\'uh?'); ?>
 <?php
-/**
- * Created by PhpStorm.
- * User: Formation
- * Date: 29/05/2017
- * Time: 10:03
- */
+/*
+    Template Name: About Us
+*/
+
+get_header();
+the_post();
+?>
+
+
+<?php echo do_shortcode("[gallery]");  ?>

@@ -1,3 +1,5 @@
+<?php defined('ABSPATH') or die('Cheatin\'uh?'); ?>
+
 <?php
 
 get_header();
@@ -10,95 +12,43 @@ the_post();
 			 <div class="col-md-8 content-main">
 				 <div class="row">
 
-					 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 box">
-						 <div class="content-grid">
-							 <div class="content-grid-head">
-								 <h4>July 24, 2014,Posted by: <a href="#">Admin</a></h4>
-								 <div class="clearfix"></div>
-							 </div>
-							 <div class="content-grid-info">
-								 <h3><a href="single.html">MORBI IN SEM QUIS DUI</a></h3>
-								 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
-								 <img src="images/c1.jpg" alt=""/>
-								 <a class="bttn" href="single.html">MORE</a>
-							 </div>
-						 </div>
-					 </div>
-					 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 box">
-						 <div class="content-grid">
-							 <div class="content-grid-head">
-								 <h4>July 24, 2014,Posted by: <a href="#">Admin</a></h4>
-								 <div class="clearfix"></div>
-							 </div>
-							 <div class="content-grid-info">
-								 <h3><a href="single.html">MORBI IN SEM QUIS DUI</a></h3>
-								 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
-								 <img src="images/c1.jpg" alt=""/>
-								 <a class="bttn" href="single.html">MORE</a>
-							 </div>
-						 </div>
-					 </div>
-					 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 box">
-						 <div class="content-grid">
-							 <div class="content-grid-head">
-								 <h4>July 24, 2014,Posted by: <a href="#">Admin</a></h4>
-								 <div class="clearfix"></div>
-							 </div>
-							 <div class="content-grid-info">
-								 <h3><a href="single.html">MORBI IN SEM QUIS DUI</a></h3>
-								 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
-								 <img src="images/c1.jpg" alt=""/>
-								 <a class="bttn" href="single.html">MORE</a>
-							 </div>
-						 </div>
-					 </div>
-					 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 box">
-						 <div class="content-grid">
-							 <div class="content-grid-head">
-								 <h4>July 24, 2014,Posted by: <a href="#">Admin</a></h4>
-								 <div class="clearfix"></div>
-							 </div>
-							 <div class="content-grid-info">
-								 <h3><a href="single.html">MORBI IN SEM QUIS DUI</a></h3>
-								 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
-								 <img src="images/c1.jpg" alt=""/>
-								 <a class="bttn" href="single.html">MORE</a>
-							 </div>
-						 </div>
-					 </div>
-					 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 box">
-						 <div class="content-grid">
-							 <div class="content-grid-head">
-								 <h4>July 24, 2014,Posted by: <a href="#">Admin</a></h4>
-								 <div class="clearfix"></div>
-							 </div>
-							 <div class="content-grid-info">
-								 <h3><a href="single.html">MORBI IN SEM QUIS DUI</a></h3>
-								 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
-								 <img src="images/c1.jpg" alt=""/>
-								 <a class="bttn" href="single.html">MORE</a>
-							 </div>
-						 </div>
-					 </div>
-					 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 box">
-						 <div class="content-grid">
-							 <div class="content-grid-head">
-								 <h4>July 24, 2014,Posted by: <a href="#">Admin</a></h4>
-								 <div class="clearfix"></div>
-							 </div>
-							 <div class="content-grid-info">
-								 <h3><a href="single.html">MORBI IN SEM QUIS DUI</a></h3>
-								 <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.</p>
-								 <img src="images/c1.jpg" alt=""/>
-								 <a class="bttn" href="single.html">MORE</a>
-							 </div>
-						 </div>
-					 </div>
+                     <section id="content" class="container clearfix">
 
-				 </div>
+                         <h2 class="slogan align-center">Life's not fun without a good scare ;)</h2>
+                         <br>
+                         <br>
+                         <br>
 
 
+                         <?php
 
+                         $list_for_slider_post = new WP_Query(
+                             array(
+                                 'post_type'=>array('post', 'blog'),
+                                 'post_status' => 'publish',
+                                 'order' => 'ASC',//ASC or DESC
+                                 'orderby' => 'title',
+                                 'posts_per_page'=>4
+                             )
+
+                         );
+                         ?>
+
+<br>
+                         <h2 class="section-title">A la une</h2>
+<br>
+
+                             <a href="<?php the_permalink(); ?>">
+                                 <?php the_post_thumbnail(array(600,340), array('class'=>'entry-image')); ?>
+                                 <h5 class="title"><?php the_title(); ?></h5>
+                                 <?php the_content(); ?>
+                                 <span class="title">Posted:</span> <a href="#"><?php the_time(get_option('date_format')); ?>
+                                 </a>
+
+
+                     </section><!-- end #content -->
+
+                 </div>
 			 </div>
 
 			 <div class="col-md-4 content-main-right">
@@ -111,14 +61,28 @@ the_post();
 				 </div>
 				 <div class="categories">
 					 <h3>CATEGORIES</h3>
-					 <li class="active"><a href="#">Donec quis dui at dolor tempor</a></li>
-					 <li><a href="#">Vestibulum commodo felis quis tort</a></li>
-					 <li><a href="#">Fusce pellentesque suscipit</a></li>
+					 <li class="active"><a href="#">Soluce</a></li>
+					 <li><a href="#">Vidéo</a></li>
+					 <audio autoplay="true" loop="true" controls="controls" src="<?php echo wp_get_attachment_url(19); ?>">
+                         Votre navigateur ne supporte pas l'élément <code>audio</code>.
+                     </audio>
+                     <br>
+                     <br>
+
+                     <aside id="sidebar">
+
+                         <?php get_sidebar('blog'); ?>
+
+                     </aside><!-- end #sidebar -->
+
 				 </div>
 			 </div>
 			 <div class="clearfix"></div>
 		 </div>
 	 </div>
+
+
+
 </div>
 
 <?php get_footer(); ?>

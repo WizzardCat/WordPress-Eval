@@ -27,6 +27,22 @@ the_post();
             <a href="<?php the_permalink(); ?>" title="">
                 <?php the_post_thumbnail(array(1024,400), array('class'=>'banner')); ?>
             </a>
+
+            <?php the_content(); ?>
+
+            <div class="entry-meta">
+
+<br>
+<br>
+<br>
+                <ul>
+                    <li><span class="title">Posted:</span> <a href="#"><?php the_time(get_option('date_format')); ?></a></li>
+                    <li><?php echo get_the_tag_list('<span class="title">Tags: </span> ', ' , '); ?></li>
+                    <li><span class="title">Commentaires: </span> <a href="#"><?php comments_number('0', '1', '%'); ?></a></li>
+                </ul>
+
+            </div><!-- end .entry-meta -->
+
 </div>
 <!---//End-banner---->
 
@@ -34,3 +50,4 @@ the_post();
     </section>
 
     <?php get_footer() ?>
+
