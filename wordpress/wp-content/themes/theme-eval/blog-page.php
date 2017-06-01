@@ -92,11 +92,7 @@ the_post();
                     <br>
                     <br>
 
-                    <aside id="sidebar">
 
-                        <?php get_sidebar('Flux_Rss'); ?>
-
-                    </aside><!-- end #sidebar -->
 
                 </div>
             </div>

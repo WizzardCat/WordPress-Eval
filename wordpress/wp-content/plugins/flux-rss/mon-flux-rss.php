@@ -67,56 +67,6 @@ function __fluxRss_fluxRss_init()
     );
 }
 
-/**
- * Get the bootstrap!
- */
-if ( file_exists( __DIR__ . '/cmb2/init.php' ) ) {
-    require_once __DIR__ . '/cmb2/init.php';
-} elseif ( file_exists(  __DIR__ . '/CMB2/init.php' ) ) {
-    require_once __DIR__ . '/CMB2/init.php';
-}
-
-add_action( 'cmb2_admin_init', 'cmb2_sample_metaboxes' );
-/**
- * Define the metabox and field configurations.
- */
-function cmb2_sample_metaboxes() {
-
-    // Start with an underscore to hide fields from custom fields list
-    $prefix = '_fluxRss_';
-
-    /**
-     * Initiate the metabox
-     */
-    $cmb = new_cmb2_box( array(
-        'id'            => 'fluxRss_metabox',
-        'title'         => __( 'Resultat des sondages', 'cmb2' ),
-        'object_types'  => array( 'sondage', ), // Post type
-        'context'       => 'normal',
-        'priority'      => 'high',
-        'show_names'    => true, // Show field names on the left
-        // 'cmb_styles' => false, // false to disable the CMB stylesheet
-        // 'closed'     => true, // Keep the metabox closed by default
-    ) );
-
-
-    $cmb->add_field( array(
-        'name' => 'Test File List',
-        'desc' => '',
-        'id'   => 'wiki_test_file_list',
-        'type' => 'file_list',
-        // 'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
-        // 'query_args' => array( 'type' => 'image' ), // Only images attachment
-        // Optional, override default text strings
-        'text' => array(
-            'add_upload_files_text' => 'Replacement', // default: "Add or Upload Files"
-            'remove_image_text' => 'Replacement', // default: "Remove Image"
-            'file_text' => 'Replacement', // default: "File:"
-            'file_download_text' => 'Replacement', // default: "Download"
-            'remove_text' => 'Replacement', // default: "Remove"
-        ),
-    ) );
-
 
 /*
     // URL text field
@@ -140,4 +90,3 @@ function cmb2_sample_metaboxes() {
 
     // Add other metaboxes as needed
 */
-}

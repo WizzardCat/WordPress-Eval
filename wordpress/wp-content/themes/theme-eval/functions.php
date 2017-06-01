@@ -29,7 +29,7 @@ function excerpt($limit)
 
 // Déclaration de la sidebar
 if ( function_exists('register_sidebar') ){
-    register_sidebar(array('name'=>'Sondage',
+    register_sidebar(array('name'=>'Blog',
         'description' =>'Cette sidebar est affiché sur toute la partie Accueil du site.',
         'before_widget'=>'<div id="%1s" class="widget %2$s">',
         'after_widget'=>'</div>',
@@ -183,89 +183,89 @@ class FlickrGallery extends WP_Widget {
         parent::__construct('fluxRSS_widget', 'Flux_Rss', array('description' => 'Un flux RSS'));
     }
 
-        function rssUpdate( $new_instance, $old_instance ) {
-
-        }
+    function rssUpdate( $new_instance, $old_instance ) {
 
     }
 
-    function widget($args, $instance)
-    {
-        // Contenu du widget à afficher
-        // Extraction des paramètres du widget
-        extract( $args );
+}
 
-        // Récupération de chaque paramètre
-        $title = apply_filters('widget_title', $instance['title']);
-        $identifiant = $instance['identifiant'];
-        $pseudo = $instance['pseudo'];
-        $nb_display = $instance['nb_display'];
+function widget($args, $instance)
+{
+    // Contenu du widget à afficher
+    // Extraction des paramètres du widget
+    extract( $args );
 
-        // Voir le détail sur ces variables plus bas
-        echo $before_widget;
+    // Récupération de chaque paramètre
+    $title = apply_filters('widget_title', $instance['title']);
+    $identifiant = $instance['identifiant'];
+    $pseudo = $instance['pseudo'];
+    $nb_display = $instance['nb_display'];
 
-        // On affiche un titre si le paramètre est rempli
-        if($title)
-            echo $before_title . $title . $after_title;
+    // Voir le détail sur ces variables plus bas
+    echo $before_widget;
 
-        /* Début de notre script
-        /* Nous allons ici récupérer un webservice de Flickr, un fichier XML
-        /* Puis le parcourir
-        /* Et afficher un nombre défini de photos */
-        ?>
-        <ul>
-            <?php
-            $url = "https://www.flickr.com/photos/sunnyboiiii/sets/72157633387854124".$identifiant."&lang=en-us&format=rss_200";
-            $flickr = simplexml_load_file($url);
+    // On affiche un titre si le paramètre est rempli
+    if($title)
+        echo $before_title . $title . $after_title;
 
-            if($flickr != false)
+    /* Début de notre script
+    /* Nous allons ici récupérer un webservice de Flickr, un fichier XML
+    /* Puis le parcourir
+    /* Et afficher un nombre défini de photos */
+    ?>
+    <ul>
+        <?php
+        $url = "https://www.flickr.com/photos/sunnyboiiii/sets/72157633387854124".$identifiant."&lang=en-us&format=rss_200";
+        $flickr = simplexml_load_file($url);
+
+        if($flickr != false)
+        {
+            $nb = $nb_display;
+
+            for($i = 0; $i<$nb; $i++)
             {
-                $nb = $nb_display;
+                $photo = $flickr->channel->item[$i];
+                $picture = $photo->xpath("media:thumbnail");
+                $pic = $picture[0]['url'];
+                $w = $picture[0]['width'];
+                $h = $picture[0]['height'];
 
-                for($i = 0; $i<$nb; $i++)
-                {
-                    $photo = $flickr->channel->item[$i];
-                    $picture = $photo->xpath("media:thumbnail");
-                    $pic = $picture[0]['url'];
-                    $w = $picture[0]['width'];
-                    $h = $picture[0]['height'];
+                $title = $photo->title;
 
-                    $title = $photo->title;
-
-                    echo "<li><a href='$photo->link' rel='external' title=\"$title\"><img src='$pic' alt=\"$title\" width='$w' height='$h' /></a></li>";
-                }
+                echo "<li><a href='$photo->link' rel='external' title=\"$title\"><img src='$pic' alt=\"$title\" width='$w' height='$h' /></a></li>";
             }
-            else
-                echo "<li>Erreur lors du chargement des photos Flickr.</li>";
-            ?>
-        </ul>
-        <div class="clear"></div>
-        <p class="right"><a href="http://www.flickr.com/photos/<?php echo $pseudo; ?>/">Plus de photos</a></p>
+        }
+        else
+            echo "<li>Erreur lors du chargement des photos Flickr.</li>";
+        ?>
+    </ul>
+    <div class="clear"></div>
+    <p class="right"><a href="http://www.flickr.com/photos/<?php echo $pseudo; ?>/">Plus de photos</a></p>
 
-        <?php echo $after_widget;
+    <?php echo $after_widget;
 
-    }
+}
 
-    function update($new_instance, $old_instance)
-    {
-        $instance = $old_instance;
+function update($new_instance, $old_instance)
+{
+    $instance = $old_instance;
 
-        /* Récupération des paramètres envoyés */
-        $instance['title'] = strip_tags($new_instance['title']);
-        $instance['identifiant'] = $new_instance['identifiant'];
-        $instance['pseudo'] = $new_instance['pseudo'];
-        $instance['nb_display'] = $new_instance['nb_display'];
+    /* Récupération des paramètres envoyés */
+    $instance['title'] = strip_tags($new_instance['title']);
+    $instance['identifiant'] = $new_instance['identifiant'];
+    $instance['pseudo'] = $new_instance['pseudo'];
+    $instance['nb_display'] = $new_instance['nb_display'];
 
-        return $instance;
-    }
+    return $instance;
+}
 
-    function form($instance)
-    {
-       $title = esc_attr($instance['title']);
-       $identifiant = esc_attr($instance['identifiant']);
-       $pseudo = esc_attr($instance['pseudo']);
-       $nb_display = esc_attr($instance['nb_display']);
-?>
+function form($instance)
+{
+    $title = esc_attr($instance['title']);
+    $identifiant = esc_attr($instance['identifiant']);
+    $pseudo = esc_attr($instance['pseudo']);
+    $nb_display = esc_attr($instance['nb_display']);
+    ?>
     <p>
         <label for="<?php echo $this->get_field_id('title'); ?>">
             <?php the_title(); ?>
@@ -296,8 +296,6 @@ class FlickrGallery extends WP_Widget {
     <?php
 }
 ?>
-    }
 
-}
 
 

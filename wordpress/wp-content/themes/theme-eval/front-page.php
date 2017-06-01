@@ -48,37 +48,41 @@ the_post();
 
                      </section><!-- end #content -->
 
-                     <?php get_sidebar('Sondage'); ?>
+
 
                  </div>
 			 </div>
 
-			 <div class="col-md-4 content-main-right">
-				 <div class="search">
-						 <h3>SEARCH HERE</h3>
-						<form>
-							<input type="text" value="" onfocus="this.value=''" onblur="this.value=''">
-							<input type="submit" value="">
-						</form>
-				 </div>
-				 <div class="categories">
-					 <h3>CATEGORIES</h3>
-					 <li class="active"><a href="#">Soluce</a></li>
-					 <li><a href="#">Vidéo</a></li>
-					 <audio autoplay="true" loop="true" controls="controls" src="<?php echo wp_get_attachment_url(19); ?>">
+             <div class="col-md-4 content-main-right" style="margin-top: 35px;">
+                 <div class="search">
+                     <h3>SEARCH HERE</h3>
+                     <form>
+                         <input type="text" value="" onfocus="this.value=''" onblur="this.value=''">
+                         <input type="submit" value="">
+                     </form>
+                 </div>
+                 <div class="categories">
+                     <h3>CATEGORIES</h3>
+                     <ul>
+
+                     <li class="active"><a href="#">Soluce</a></li>
+                     <li><a href="#">Vidéo</a></li>
+                         <li><audio autoplay="true" loop="true" controls="controls" src="<?php echo wp_get_attachment_url(30); ?>">
                          Votre navigateur ne supporte pas l'élément <code>audio</code>.
                      </audio>
+                        </li>
+                     </ul>
                      <br>
                      <br>
 
-                     <aside id="sidebar">
 
-                         <?php get_sidebar('blog'); ?>
 
-                     </aside><!-- end #sidebar -->
+                     <?php get_sidebar('Sondage'); ?>
 
-				 </div>
-			 </div>
+
+                 </div>
+             </div>
+
 			 <div class="clearfix"></div>
 		 </div>
 	 </div>
