@@ -253,12 +253,12 @@ background:rgba(179, 255, 179, 0.61);
 font-family: 'Source Sans Pro', sans-serif;
 }
 .search input[type="submit"] {
-background: url(../images/splits.png) no-repeat -202px -6px;
+background: url(../images/splits.png) no-repeat -197px -10px;
 border: none;
 padding: 0px 0 23px 0;
 outline: none;
-width: 43px;
-height: 51px;
+width: 44px;
+height: 56px;
 }
 .categories,.archives{
 background: #ff6600;

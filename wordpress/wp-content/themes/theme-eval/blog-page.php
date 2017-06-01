@@ -94,7 +94,7 @@ the_post();
 
                     <aside id="sidebar">
 
-                        <?php get_sidebar('blog'); ?>
+                        <?php get_sidebar('Flux_Rss'); ?>
 
                     </aside><!-- end #sidebar -->
 

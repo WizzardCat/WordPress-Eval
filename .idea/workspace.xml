@@ -2,20 +2,415 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="120f5d80-0ccc-478a-a9af-a3bf1f9e93ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/.idea/workspace.xml" afterPath="$PROJECT_DIR$/wordpress/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/about-page.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/about-page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ico-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ach.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-af.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-an.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ar.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ary.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-as.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-az.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-be.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bg.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bg_BG.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bn_BD.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-br.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bs.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bs_BA.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ca.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-co.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-cs_CZ.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-cy.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-da_DK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-de_AT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-de_CH.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-de_DE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-dv.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-el.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en@pirate.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en_AU.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en_CA.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en_GB.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-eo.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_AR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_CL.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_CO.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_ES.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_MX.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_PE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_VE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-et.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-eu.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fa.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fa_IR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fi.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fo.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fr_BE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fr_CA.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fr_FR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fy.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ga.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-gd.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-gl_ES.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-gu_IN.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-he_IL.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hi_IN.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hr.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hu_HU.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hy.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-id_ID.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-is_IS.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-it_IT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ja.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-jv.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ka.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ka_GE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-kk.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-km.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-kn.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ko_KR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ku.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ky.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-lo.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-lt_LT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-lv.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mg.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mk_MK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mn.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mr.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ms_MY.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-my_MM.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nb_NO.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ne_NP.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nl_BE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nl_NL.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nn_NO.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-oc.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-os.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pap.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pl_PL.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ps.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pt_BR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pt_PT.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ro_RO.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ru_RU.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sa.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sah.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-si_LK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sk_SK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sl_SI.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-so.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sq.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sr_RS.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-su.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sv_SE.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sw.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ta_IN.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ta_LK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-te.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tg.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-th.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tk_TM.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tl.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tr_TR.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tzm.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ug.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-uk.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ur.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ur_PK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-uz.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-vi.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-zh_CN.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-zh_HK.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-zh_TW.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-display-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-display-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-display.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-display.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-display.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-front-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-front-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-front.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-front.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-front.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/cmb2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/cmb2-display.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/cmb2-front.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/cmb2.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_collapsible_ui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_context_metaboxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_display.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_front.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_jquery_ui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_main_wrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_misc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_post_metaboxes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_sidebar_placements.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/css/sass/partials/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/example-functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/images/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Ajax.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Boxes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Field.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Field_Display.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Hookup_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_JS.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Sanitize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Show_Filters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_Utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/CMB2_hookup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/helper-functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/rest-api/CMB2_REST.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/rest-api/CMB2_REST_Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/rest-api/CMB2_REST_Controller_Boxes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/rest-api/CMB2_REST_Controller_Fields.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/shim/WP_REST_Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Checkbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Colorpicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_File_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_File_List.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Multi_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Multicheck.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Oembed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Picker_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Radio.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Select_Timezone.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Taxonomy_Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Taxonomy_Multicheck.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Taxonomy_Multicheck_Hierarchical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Taxonomy_Radio.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Taxonomy_Radio_Hierarchical.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Taxonomy_Select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Text_Date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Text_Datetime_Timestamp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Text_Datetime_Timestamp_Timezone.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Text_Time.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Textarea.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Textarea_Code.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Title.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/includes/types/CMB2_Type_Wysiwyg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/js/cmb2-wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/js/cmb2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/js/cmb2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/js/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/js/jquery-ui-timepicker-addon.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ach.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-af.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-an.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ar.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ary.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-as.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-az.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-be.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bg.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bg_BG.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bn_BD.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-br.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bs.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-bs_BA.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ca.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-co.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-cs_CZ.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-cy.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-da_DK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-de_AT.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-de_CH.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-de_DE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-dv.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-el.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en@pirate.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en_AU.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en_CA.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-en_GB.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-eo.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_AR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_CL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_CO.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_ES.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_MX.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_PE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-es_VE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-et.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-eu.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fa.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fa_IR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fi.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fo.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fr_BE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fr_CA.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fr_FR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-fy.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ga.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-gd.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-gl_ES.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-gu_IN.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-he_IL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hi_IN.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hr.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hu_HU.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-hy.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-id_ID.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-is_IS.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-it_IT.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ja.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-jv.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ka.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ka_GE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-kk.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-km.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-kn.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ko_KR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ku.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ky.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-lo.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-lt_LT.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-lv.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mg.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mk_MK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mn.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-mr.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ms_MY.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-my_MM.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nb_NO.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ne_NP.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nl_BE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nl_NL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-nn_NO.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-oc.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-os.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pap.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pl_PL.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ps.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pt_BR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-pt_PT.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ro_RO.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ru_RU.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sa.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sah.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-si_LK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sk_SK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sl_SI.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-so.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sq.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sr_RS.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-su.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sv_SE.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-sw.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ta_IN.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ta_LK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-te.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tg.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-th.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tk_TM.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tl.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tr_TR.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-tzm.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ug.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-uk.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ur.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-ur_PK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-uz.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-vi.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-zh_CN.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-zh_HK.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2-zh_TW.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/languages/cmb2.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/mon-flux-rss.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery.ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/admin.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/js/scripts.js" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/config-validator.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/config-validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/contact-form.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/controller.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/form-tag.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/form-tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/formatting.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/formatting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/mail.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/rest-api.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/rest-api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/submission.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/includes/submission.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/acceptance.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/acceptance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/akismet.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/akismet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/checkbox.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/count.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/count.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/date.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/file.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/flamingo.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/flamingo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/hidden.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/hidden.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/number.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/number.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/quiz.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/quiz.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/recaptcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/response.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/select.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/submit.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/submit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/text.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/textarea.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/modules/textarea.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/readme.txt" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/plugins/contact-form-7/wp-contact-form-7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/contact-page.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/contact-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/footer.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/header.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/index.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/page.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/single.php" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/single.html" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/single.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,21 +422,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1593">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="13" column="111" lean-forward="false" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css">
+      <file leaf-file-name="blog-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="141" column="14" lean-forward="false" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="14" />
+              <caret line="1733" column="18" lean-forward="false" selection-start-line="1733" selection-start-column="12" selection-end-line="1733" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="260" column="10" lean-forward="false" selection-start-line="260" selection-start-column="10" selection-end-line="260" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -62,29 +477,47 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1491">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="798">
+              <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding>
+                <element signature="n#widget#0;n#Sondage_Widget#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#Sondage_Widget#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/contact-page.php">
+      <file leaf-file-name="mon-flux-rss.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/mon-flux-rss.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="399">
+              <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="40" />
+              <folding>
+                <element signature="e#7#107#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mon-sondage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/sondage/mon-sondage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="14" column="70" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="572">
+              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding>
+                <element signature="e#1721#2576#0#HTML" expanded="false" />
+                <element signature="e#1768#1976#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +528,9 @@
     <findStrings>
       <find>bann</find>
       <find>url</find>
+      <find>search</find>
+      <find>}}</find>
+      <find>}</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,17 +539,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/about-page.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/footer.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/header.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/index.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/page.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/contact.html" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/contact-page.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/mon-flux-rss.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php" />
       </list>
     </option>
   </component>
@@ -301,6 +738,80 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordPress-Eval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordPress-Eval" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordPress-Eval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordPress-Eval" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sondage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordPress-Eval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordPress-Eval" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flux-rss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -310,6 +821,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wordpress" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Formation\Documents\Git\WordPress-Eval\wordpress\wp-content\plugins" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -323,6 +839,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -333,15 +912,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496235460265</updated>
-      <workItem from="1496235461836" duration="4274000" />
+      <workItem from="1496235461836" duration="12040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4274000" />
+    <option name="totallyTimeSpent" value="12040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -370,19 +949,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -395,7 +968,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
           <folding>
-            <element signature="e#58#91#0#PHP" expanded="true" />
+            <element signature="e#58#91#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -404,14 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -432,30 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1491">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="70" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1593">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-709">
@@ -466,19 +1007,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/contact-page.php">
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="491">
+          <caret line="260" column="10" lean-forward="false" selection-start-line="260" selection-start-column="10" selection-end-line="260" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/mon-flux-rss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="e#7#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/flux-rss/CMB2/js/cmb2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493013044000" expanded="true" signature="26642:26734" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="n#widget#0;n#Sondage_Widget#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#Sondage_Widget#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="141" column="14" lean-forward="false" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="14" />
+          <caret line="1733" column="18" lean-forward="false" selection-start-line="1733" selection-start-column="12" selection-end-line="1733" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="111" lean-forward="false" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/contact-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/plugins/sondage/mon-sondage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/blog-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/theme-eval/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="e#1721#2576#0#HTML" expanded="false" />
+            <element signature="e#1768#1976#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

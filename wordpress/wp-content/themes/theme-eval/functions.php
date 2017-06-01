@@ -29,18 +29,25 @@ function excerpt($limit)
 
 // Déclaration de la sidebar
 if ( function_exists('register_sidebar') ){
-    register_sidebar(array('name'=>'Blog',
-        'description' =>'Cette sidebar est affiché sur toute la partie Blog du site.',
+    register_sidebar(array('name'=>'Sondage',
+        'description' =>'Cette sidebar est affiché sur toute la partie Accueil du site.',
         'before_widget'=>'<div id="%1s" class="widget %2$s">',
         'after_widget'=>'</div>',
         'before_title' => '<h6 class="widget-title ">',
         'after_title' => '</h6>'
     ));
+    register_sidebar(array('name'=>'Flux_Rss',
+        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'after_widget' => "</li>n",
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => "</h2>n"
+    ));
+
 }
 // Déclaration d'un widgets
 add_action('widgets_init', 'init_register_sidebar');
 function init_register_sidebar(){
-    register_widget('Sondage_Widget');
+    register_widget('Sondage_Widget', 'Flux_Rss_Widget');
 }
 
 class Sondage_Widget extends WP_Widget
@@ -141,6 +148,8 @@ class Sondage_Widget extends WP_Widget
     }
 }
 
+
+
 function themeslug_enqueue_style () {
     if(is_page(5)) {
         wp_enqueue_style('core', STATICPATH.'/css/contact.css', false );
@@ -159,6 +168,136 @@ function themeslug_enqueue_script() {
 add_action('wp_enqueue_scripts', 'themeslug_enqueue_style');
 add_action('wp_enqueue_scripts', 'themeslug_enqueue_script');
 
-
-
 ?>
+
+
+<?php
+
+
+
+class FlickrGallery extends WP_Widget {
+
+    function FlickrGallery()
+    {
+        // Constructeur
+        parent::__construct('fluxRSS_widget', 'Flux_Rss', array('description' => 'Un flux RSS'));
+    }
+
+        function rssUpdate( $new_instance, $old_instance ) {
+
+        }
+
+    }
+
+    function widget($args, $instance)
+    {
+        // Contenu du widget à afficher
+        // Extraction des paramètres du widget
+        extract( $args );
+
+        // Récupération de chaque paramètre
+        $title = apply_filters('widget_title', $instance['title']);
+        $identifiant = $instance['identifiant'];
+        $pseudo = $instance['pseudo'];
+        $nb_display = $instance['nb_display'];
+
+        // Voir le détail sur ces variables plus bas
+        echo $before_widget;
+
+        // On affiche un titre si le paramètre est rempli
+        if($title)
+            echo $before_title . $title . $after_title;
+
+        /* Début de notre script
+        /* Nous allons ici récupérer un webservice de Flickr, un fichier XML
+        /* Puis le parcourir
+        /* Et afficher un nombre défini de photos */
+        ?>
+        <ul>
+            <?php
+            $url = "https://www.flickr.com/photos/sunnyboiiii/sets/72157633387854124".$identifiant."&lang=en-us&format=rss_200";
+            $flickr = simplexml_load_file($url);
+
+            if($flickr != false)
+            {
+                $nb = $nb_display;
+
+                for($i = 0; $i<$nb; $i++)
+                {
+                    $photo = $flickr->channel->item[$i];
+                    $picture = $photo->xpath("media:thumbnail");
+                    $pic = $picture[0]['url'];
+                    $w = $picture[0]['width'];
+                    $h = $picture[0]['height'];
+
+                    $title = $photo->title;
+
+                    echo "<li><a href='$photo->link' rel='external' title=\"$title\"><img src='$pic' alt=\"$title\" width='$w' height='$h' /></a></li>";
+                }
+            }
+            else
+                echo "<li>Erreur lors du chargement des photos Flickr.</li>";
+            ?>
+        </ul>
+        <div class="clear"></div>
+        <p class="right"><a href="http://www.flickr.com/photos/<?php echo $pseudo; ?>/">Plus de photos</a></p>
+
+        <?php echo $after_widget;
+
+    }
+
+    function update($new_instance, $old_instance)
+    {
+        $instance = $old_instance;
+
+        /* Récupération des paramètres envoyés */
+        $instance['title'] = strip_tags($new_instance['title']);
+        $instance['identifiant'] = $new_instance['identifiant'];
+        $instance['pseudo'] = $new_instance['pseudo'];
+        $instance['nb_display'] = $new_instance['nb_display'];
+
+        return $instance;
+    }
+
+    function form($instance)
+    {
+       $title = esc_attr($instance['title']);
+       $identifiant = esc_attr($instance['identifiant']);
+       $pseudo = esc_attr($instance['pseudo']);
+       $nb_display = esc_attr($instance['nb_display']);
+?>
+    <p>
+        <label for="<?php echo $this->get_field_id('title'); ?>">
+            <?php the_title(); ?>
+            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
+        </label>
+    </p>
+
+    <p>
+        <label for="<?php echo $this->get_field_id('identifiant'); ?>">
+            <?php _e('Identifiant:'); ?>
+            <input class="widefat" id="<?php echo $this->get_field_id('identifiant'); ?>" name="<?php echo $this->get_field_name('identifiant'); ?>" type="text" value="<?php echo $identifiant; ?>" />
+        </label>
+    </p>
+
+    <p>
+        <label for="<?php echo $this->get_field_id('pseudo'); ?>">
+            <?php _e('Pseudo:'); ?>
+            <input class="widefat" id="<?php echo $this->get_field_id('pseudo'); ?>" name="<?php echo $this->get_field_name('pseudo'); ?>" type="text" value="<?php echo $pseudo; ?>" />
+        </label>
+    </p>
+
+    <p>
+        <label for="<?php echo $this->get_field_id('nb_display'); ?>">
+            <?php _e('Nombre de photos:'); ?>
+            <input class="widefat" id="<?php echo $this->get_field_id('nb_display'); ?>" name="<?php echo $this->get_field_name('nb_display'); ?>" type="text" value="<?php echo $nb_display; ?>" />
+        </label>
+    </p>
+    <?php
+}
+?>
+    }
+
+}
+
+

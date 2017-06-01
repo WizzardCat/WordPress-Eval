@@ -48,6 +48,8 @@ the_post();
 
                      </section><!-- end #content -->
 
+                     <?php get_sidebar('Sondage'); ?>
+
                  </div>
 			 </div>
 
